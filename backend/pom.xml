@@ -18,8 +18,9 @@
     <description>Pune Roomie - Spring Boot Backend</description>
 
     <properties>
-        <java.version>17</java.version>
-        <jjwt.version>0.11.5</jjwt.version>
+    <java.version>17</java.version>
+    <jjwt.version>0.11.5</jjwt.version>
+    <maven.multiModuleProjectDirectory>${basedir}</maven.multiModuleProjectDirectory>
     </properties>
 
     <dependencies>
