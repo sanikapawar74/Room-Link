@@ -11,6 +11,9 @@ COPY backend/.mvn/ .mvn
 COPY backend/mvnw .
 COPY backend/pom.xml .
 
+
+# Grant execute permission to the Maven wrapper
+RUN chmod +x ./mvnw
 # Download dependencies using the wrapper. This layer is only rebuilt if pom.xml changes.
 RUN ./mvnw dependency:go-offline
 
