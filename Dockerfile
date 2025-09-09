@@ -2,6 +2,9 @@
 # We name this stage "builder" for clarity
 FROM openjdk:17-jdk-slim AS builder
 
+# Install curl to allow the Maven wrapper to download files
+RUN apt-get update && apt-get install -y curl && rm -rf /var/lib/apt/lists/*
+
 # Set a consistent working directory
 WORKDIR /app
 
@@ -11,9 +14,9 @@ COPY backend/.mvn/ .mvn
 COPY backend/mvnw .
 COPY backend/pom.xml .
 
-
 # Grant execute permission to the Maven wrapper
 RUN chmod +x ./mvnw
+
 # Download dependencies using the wrapper. This layer is only rebuilt if pom.xml changes.
 RUN ./mvnw dependency:go-offline
 
