@@ -12,7 +12,7 @@ Broker-free room rental platform for Pune. Post, browse, and manage listings wit
 - Image upload and preview
 - RESTful API (Spring Boot)
 - PostgreSQL persistence
-- Modern UI (MUI, React)
+- Modern UI (MUI,VITE, React)
 
 ---
 
