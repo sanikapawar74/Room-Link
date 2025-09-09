@@ -23,7 +23,7 @@ RUN ./mvnw package -DskipTests
 
 # Stage 2: Create the final, smaller runtime image
 # This uses the correct, existing image for a minimal JRE
-FROM eclipse-temurin:17-jre-slim
+FROM eclipse-temurin:17-jre-jammy
 
 # Set the working directory
 WORKDIR /app
