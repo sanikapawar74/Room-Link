@@ -15,12 +15,12 @@
 
 ### Homepage & Search Interface
 
-![Homepage Demo](https://raw.githubusercontent.com/sanikapawar74/Room-Link/img-1.png)
+![Homepage Demo](https://github.com/sanikapawar74/Room-Link/blob/main/img-1.png)
 *Clean, intuitive homepage with advanced search filters and location-based browsing*
 
 ### Interactive Map View
 
-![Map View Demo](https://raw.githubusercontent.com/sanikapawar74/Room-Link/img-2.png)
+![Map View Demo](https://github.com/sanikapawar74/Room-Link/blob/main/img-2.png)
 *Interactive map interface showing room listings with location markers and detailed popups*
 
 ### Room Listing Details
