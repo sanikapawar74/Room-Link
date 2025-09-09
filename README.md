@@ -104,7 +104,7 @@ Frontend (React + Vite) <-> Backend (Spring Boot) <-> PostgreSQL (Docker)
 ## Deployment
 - **Netlify:** Static frontend hosting (see `netlify.toml`)
 - **Railway:** Backend deployment (see `railway.json`)
-- **Heroku/Other:** Add `Procfile` for custom Java hosting
+
 
 ---
 
